@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blockchain Voting App</title>
+  </head>
+  <body>
+    <h1>Vote for Your Candidate</h1>
+
+    <!-- Input for voter ID (used to prevent multiple votes) -->
+    <input type="text" id="voterId" placeholder="Enter your Voter ID" />
+
+    <!-- Dropdown list for choosing a candidate -->
+    <select id="candidate">
+      <option value="Alice">Alice</option>
+      <option value="Bob">Bob</option>
+      <option value="Charlie">Charlie</option>
+    </select>
+
+    <!-- Button to submit vote -->
+    <button onclick="submitVote()">Vote</button>
+
+    <h2>Results:</h2>
+    <!-- Area to show the vote results -->
+    <pre id="results"></pre>
+
+    <!-- JavaScript file for handling frontend logic -->
+    <script src="script.js"></script>
+  </body>
+</html>
